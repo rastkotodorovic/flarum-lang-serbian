@@ -5,6 +5,8 @@
     "homepage": "https://github.com/rastkotodorovic/flarum-lang-serbian",
     "keywords": ["locale","translation","srpski","serbian"],
     "license": "MIT",
+    "minimum-stability": "dev",
+    "prefer-stable": true,
     "support": {
         "issues": "https://github.com/rastkotodorovic/flarum-lang-serbian/issues",
         "source": "https://github.com/rastkotodorovic/flarum-lang-serbian"

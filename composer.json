@@ -1,8 +1,8 @@
 {
-    "name": "rastkotodorovic/flarum-language-serbian",
+    "name": "rastkotodorovic/flarum-lang-serbian",
     "type": "flarum-extension",
     "description": "Serbian language pack.",
-    "homepage": "https://github.com/rastkotodorovic/flarum-language-serbian",
+    "homepage": "https://github.com/rastkotodorovic/flarum-lang-serbian",
     "keywords": ["locale","translation","srpski","serbian"],
     "license": "MIT",
     "require": {

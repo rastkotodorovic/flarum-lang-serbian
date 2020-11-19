@@ -1,0 +1,29 @@
+{
+    "name": "rastkotodorovic/flarum-language-serbian",
+    "type": "flarum-extension",
+    "description": "Serbian language pack.",
+    "homepage": "https://github.com/rastkotodorovic/flarum-language-serbian",
+    "keywords": ["locale","translation","srpski","serbian"],
+    "license": "MIT",
+    "require": {
+        "flarum/core": "^0.1.0-beta.14"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "0.1.x-dev"
+        },
+        "flarum-extension": {
+            "title": "Srpski",
+            "icon": {
+                "image": "flag.jpg",
+                "backgroundColor": "#00247d",
+                "backgroundSize": "cover",
+                "backgroundPosition": "center"
+            }
+        },
+        "flarum-locale": {
+            "code": "sr",
+            "title": "Srpski"
+        }
+    }
+}

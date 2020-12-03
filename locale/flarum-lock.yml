@@ -34,4 +34,4 @@ flarum-lock:
 
     # These translations are used in the Settings page.
     settings:
-      notify_discussion_locked_label: Neko je zaključao temu koju sam pokrenuo
+      notify_discussion_locked_label: Neko je zaključao temu koju sam ja pokrenuo

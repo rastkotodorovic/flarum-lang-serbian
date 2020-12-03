@@ -47,7 +47,7 @@ core:
       forum_title_heading: Naslov foruma
       home_page_heading: Početna stranica
       home_page_text: Podesite početnu stranicu koju će korisnik videti kada poseti forum.
-      saved_message: Vaše izmene su snimljene.
+      saved_message: Vaše izmene su sačuvane.
       show_language_selector_label: Prikažite opciju biranja jezika
       submit_button: => core.ref.save_changes
       welcome_banner_heading: Baner dobrodošlice
@@ -221,13 +221,13 @@ core:
     composer_discussion:
       body_placeholder: Novi post...
       discard_confirmation: "Niste postavili temu. Da li želite da je poništite?"
-      submit_button: Snimi post
+      submit_button: Dodajte temu
       title: => core.ref.start_a_discussion
       title_placeholder: Naslov teme
 
     # These translations are used by the composer when editing a post.
     composer_edit:
-      discard_confirmation: "Niste snimili izmene. Da li želite da ih poništite?"
+      discard_confirmation: "Niste sačuvali izmene. Da li želite da ih poništite?"
       edited_message: Vaše uređivanje je izvršeno.
       post_link: "Post #{number} u {discussion}"
       submit_button: => core.ref.save_changes
@@ -237,8 +237,8 @@ core:
     composer_reply:
       body_placeholder: => core.ref.write_a_reply
       discard_confirmation: "Niste postavili odgovor. Da li želite da ga poništite?"
-      posted_message: Vaš odgovor je snimljen.
-      submit_button: Snimite odgovor
+      posted_message: Vaš odgovor je sačuvan.
+      submit_button: Dodajte odgovor
       view_button: => core.ref.view
 
     # These translations are used by the discussion control buttons.
@@ -258,8 +258,8 @@ core:
       empty_text: Nema aktivnih tema. Pokrenite novu..
       load_more_button: => core.ref.load_more
       mark_as_read_tooltip: Označite kao pročitano
-      replied_text: "{username} odgovorio {ago}"
-      started_text: "{username} pokrenuo {ago}"
+      replied_text: "{username} je odgovorio {ago}"
+      started_text: "{username} je pokrenuo {ago}"
 
     # These translations are used in the Edit User modal dialog (admin function).
     edit_user:
@@ -599,7 +599,7 @@ core:
     reply: Odgovorite                               # Referenced by flarum-mentions.yml
     reset_your_password: Resetujte lozinku
     restore: Povratite
-    save_changes: Snimite izmene                  # Referenced by flarum-suspend.yml, flarum-tags.yml
+    save_changes: Sačuvajte izmene                  # Referenced by flarum-suspend.yml, flarum-tags.yml
     settings: Postavke
     sign_up: Registracija
     some_others: "{count} drugi|{count} drugih"  # Referenced by flarum-likes.yml, flarum-mentions.yml

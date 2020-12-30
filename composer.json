@@ -12,19 +12,24 @@
     "require": {
         "flarum/core": "^0.1.0-beta.15"
     },
-    "minimum-stability": "dev",
     "extra": {
         "branch-alias": {
             "dev-master": "1.9.x-dev"
         },
         "flarum-extension": {
             "title": "Srpski",
+            "category": "language",
+            "info": {
+                "website": "https://github.com/rastkotodorovic/flarum-lang-serbian",
+                "support": "https://github.com/rastkotodorovic/flarum-lang-serbian/issues"
+            },
             "icon": {
                 "image": "flag.jpg",
                 "backgroundColor": "#00247d",
                 "backgroundSize": "cover",
                 "backgroundPosition": "center"
             }
+
         },
         "flarum-locale": {
             "code": "sr",

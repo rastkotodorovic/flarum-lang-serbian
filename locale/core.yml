@@ -146,13 +146,13 @@ core:
 
     # These translations are used in the Permissions page of the admin interface.
     permissions:
-      allow_post_editing_label: Dozvolite izmenu postova
+      allow_post_editing_label: Dozvolite izmenu objava
       allow_renaming_label: Dozvolite izmenu naslova
       create_heading: Kreiranje
       delete_discussions_forever_label: Brisanje teme trajno
       delete_discussions_label: Brisanje teme
-      delete_posts_forever_label: Brisanje postova trajno
-      delete_posts_label: Brisanje postova
+      delete_posts_forever_label: Brisanje objava trajno
+      delete_posts_label: Brisanje objava
       edit_posts_label: Izmenite post
       edit_users_label: Uredite korisnika
       global_heading: Globalno
@@ -351,10 +351,10 @@ core:
 
     # These translations are used in the scrubber to the right of the post stream.
     post_scrubber:
-      now_link: Poslednji post
-      original_post_link: Prvi post
+      now_link: Poslednja objava
+      original_post_link: Prva objava
       unread_text: "{count} nepročitanih"
-      viewing_text: "{index} od {count} posta|{index} od {count} postova"
+      viewing_text: "{index} od {count} objava|{index} od {count} objava"
 
     # These translations are displayed between posts in the post stream.
     post_stream:
@@ -408,7 +408,7 @@ core:
       in_discussion_text: "U {discussion}"
       joined_date_text: "Pridružio se {ago}"
       online_text: Online
-      posts_empty_text: Izgleda da nema postova.
+      posts_empty_text: Izgleda da nema objava.
       posts_link: => core.ref.posts
       posts_load_more_button: => core.ref.load_more
       settings_link: => core.ref.settings
@@ -417,7 +417,7 @@ core:
     user_controls:
       button: Kontrole
       delete_button: => core.ref.delete
-      delete_confirmation: "Jeste li sigurni da želite izbrisati ovog korisnika? Korisnički postovi NEĆE biti obrisani."
+      delete_confirmation: "Jeste li sigurni da želite izbrisati ovog korisnika? Korisničke objave NEĆE biti obrisane."
       delete_error_message: "Brisanje korisnika <i>{username} ({email})</i> je neuspešno"
       delete_success_message: "Korisnik <i>{username} ({email})</i> je uspešno obrisan"
       edit_button: => core.ref.edit
@@ -592,7 +592,7 @@ core:
     notifications: Notifikacije
     okay: OK                                     # Referenced by flarum-tags.yml
     password: Lozinka
-    posts: Postovi                               # Referenced by flarum-statistics.yml
+    posts: Objave                             # Referenced by flarum-statistics.yml
     previous_page: Prethodna stranica
     remove: Izbrišite
     rename: Preimenujte

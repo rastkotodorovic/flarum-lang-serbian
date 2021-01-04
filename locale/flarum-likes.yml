@@ -9,7 +9,7 @@ flarum-likes:
 
     # These translations are used in the Permissions page of the admin interface.
     permissions:
-      like_posts_label: Like postove
+      like_posts_label: Like objave
 
   # Translations in this namespace are used by the forum user interface.
   forum:
@@ -34,4 +34,4 @@ flarum-likes:
 
     # These translations are used in the Settings page.
     settings:
-      notify_post_liked_label: Nekome se sviđa jedan od mojih postova
+      notify_post_liked_label: Nekome se sviđa jedna od mojih objava

@@ -29,7 +29,7 @@ flarum-mentions:
 
     # These translations are used in the Settings page.
     settings:
-      notify_post_mentioned_label: Neko je odgovorio na jedan od mojih postova
+      notify_post_mentioned_label: Neko je odgovorio na jednu od mojih objava
       notify_user_mentioned_label: Neko me spominje u postu
 
     # These translations are used in the user profile page and profile popup.

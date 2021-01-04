@@ -44,8 +44,8 @@ flarum-subscriptions:
       ignoring_text: Nikada ne primajte notifikacije. Sakrijte sa liste tema.
       not_following_button: Ne pratim
       not_following_text: "Obavjest samo kada @mentioned."
-      notify_alert_tooltip: Primite forum notifikacije kada ima novih postova
-      notify_email_tooltip: Primite email kada ima novih postova
+      notify_alert_tooltip: Primite forum notifikacije kada ima novih objava
+      notify_email_tooltip: Primite email kada ima novih objava
 
   # Translations in this namespace are used in emails sent by the forum.
   email:

@@ -219,7 +219,7 @@ core:
 
     # These translations are used by the composer when starting a discussion.
     composer_discussion:
-      body_placeholder: Novi post...
+      body_placeholder: Nova objava...
       discard_confirmation: "Niste postavili temu. Da li želite da je poništite?"
       submit_button: Dodajte temu
       title: => core.ref.start_a_discussion
@@ -255,7 +255,7 @@ core:
 
     # These translations are used in the discussion list.
     discussion_list:
-      empty_text: Nema aktivnih tema. Pokrenite novu..
+      empty_text: Nema aktivnih tema. Pokrenite novu...
       load_more_button: => core.ref.load_more
       mark_as_read_tooltip: Označite kao pročitano
       replied_text: "{username} je odgovorio {ago}"
